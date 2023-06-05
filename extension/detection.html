@@ -1,0 +1,35 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" href="detection_style.css">
+    <script src="popup.js"></script>
+    <script src="background .js"></script>
+</head>
+
+<html>
+
+<body>
+    <div id="div_logo">
+        <img src="icons/icon.png" alt="" id="logo">
+        <p class="info">Hi from the Deepfake extension team. Thank you for installing the Deepfake extension!
+            This extension will help you stop the spread of information and identify when a video is not really
+            what it seems. If you have any questions about the code or software, email steven.baobao@gmail.com.</p>
+    </div>
+    <div id="div2">
+        <div style="width: 50%">
+            <p class="info2">We have identified a potential deepfake in the video you are watching. Below you can see
+                our
+                anylsis of the video. We have displayed the exact frame on where our neural network detected the
+                deepfake.
+                We have also given the probability of the video being a deepfake. Keep in mind it may not be 100%
+                accurate, and
+                if you know for sure it is not a deepfake please ignore and close this popup.</p>
+        </div>
+        <div style="width: 50%; text-align: center; margin-top: auto; margin-bottom: auto;">
+            <p id="accuracy">Probability of being a deepfake: </p>
+            <img src="obama_example.jpg" id="video111">
+        </div>
+    </div>
+</body>
+
+</html>

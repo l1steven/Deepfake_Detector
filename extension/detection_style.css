@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #7CB9D5;
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    clear: left;
+    height: 10%;
+    width: 10%;
+}
+
+.info{
+    display: block;
+    text-align: center;
+    width: 85%;
+    margin-left: 200px;
+    font-size: 35px;
+}
+
+.info2{
+    margin-top: 100px;
+    float: left;
+    clear:left;
+    font-size: 35px;
+    text-align: center;
+}
+
+#div_logo{
+    margin-bottom: 40px;
+}
+
+#div2 {
+    display: flex;
+}
+
+#accuracy{
+    font-size: 30px;
+}
+
+#video111{
+    width: 600px;
+    height: 337.5px;
+}
+
